@@ -68,7 +68,7 @@ export function GreetingCardTemplate({
     <div
       ref={cardRef}
       dangerouslySetInnerHTML={{ __html: content }}
-      className="fixed -left-[9999px] top-0"
+      className="fixed -left-[0] top-0"
     />
   );
 }
